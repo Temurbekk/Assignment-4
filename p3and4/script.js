@@ -1,3 +1,4 @@
+
 const passwordSubmit = document.getElementById("submit");
 const passwordValue = document.forms["myform"]["password"].value;
 
@@ -12,6 +13,8 @@ passwordSubmit.addEventListener('click', (e) => {
    }
   else alert('Incorrect password!')
 });
+
+//const formDiv = document.getElementById('form');
 
 
 function checkPassword(value){
